@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio Profesional</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#" class="logo"  data-translate="My Portfolio">Mi Portfolio</a>
+
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link" data-translate="home">Inicio</a></li>
+                <li><a href="#proyectos" class="nav-link" data-translate="projects">Proyectos</a></li>
+                <li><a href="#sobre-mi" class="nav-link" data-translate="about">Sobre mí</a></li>
+                <li><a href="#contacto" class="nav-link" data-translate="contact">Contacto</a></li>
+                <li>
+                    <select class="language-switcher" id="languageSwitcher">
+                        <option value="es">ES</option>
+                        <option value="en">EN</option>
+                        <option value="fr">FR</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero profile">
+        <div class="hero-content">
+            <div class="profile">
+                <img src="assets/imgs/profil.jpg" alt="Foto de perfil" class="profile-img">
+                <h1 data-translate="welcome">Bienvenido a mi Portfolio</h1>
+                <p class="title" data-translate="title">INFORMATICO : Lic en Redes y Telecomunicaciones</p>
+            </div>
+            <a class="cta-button" href="assets/docs/CV-SP.pdf" download="CV_NZO ANDEME" data-translate="download">Descargar CV</a>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="about">
+        <h2 class="section-title" data-translate="about">Sobre mí</h2>
+        <div class="about-content" data-translate="about-text">
+            <p>Informático de vocación y recién graduado en Redes y Telecomunicaciones, mi pasión por la tecnología me impulsa a explorar nuevas fronteras en el desarrollo web. Cuento con experiencia en front-end y back-end, y estoy ansioso por aplicar mis conocimientos en proyectos innovadores.</p>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills">
+        <h2 class="section-title" data-translate="skills">Mis Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3 data-translate="frontend">Frontend</h3>
+                <p>HTML5, CSS3, JavaScript, React</p>
+            </div>
+            <div class="skill-card">
+                <h3 data-translate="solid_knowledge">conocimientos en :</h3>
+                <p>TCP/IP, HTTP, DNS, DHCP</p>
+            </div>
+            <div class="skill-card">
+                <h3 data-translate="backend">Backend</h3>
+                <p>PHP</p>
+            </div>
+            <div class="skill-card">
+                <h3 data-translate="databases">Bases de Datos</h3>
+                <p>MySQL, XAMP</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects">
+        <h2 class="section-title" data-translate="projects">Mis Proyectos</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/imgs/03.jpeg" alt="Proyecto 1" class="project-image">
+                <div class="project-info">
+                    <h3 data-translate="project1_title">Proyecto 1 - E COMMERCE</h3>
+                    <p data-translate="project1_description">Descubre una experiencia de compra en línea sofisticada y accesible para todos los presupuestos</p>
+                    <a href="https://vbacb.github.io/Bcesar-Ecommerce.com/" data-translate="See project">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/imgs/C2.jpeg" alt="Proyecto 2" class="project-image">
+                <div class="project-info">
+                    <h3 data-translate="project2_title">Proyecto 2 - WEB ESCOLAR</h3>
+                    <p data-translate="project2_description">Un sitio web escolar , proporcionando asi una alta gama de informacion para la educacion.</p>
+                    <a href="#" data-translate="See project">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/imgs/dashboard.jpeg" alt="Proyecto 3" class="project-image">
+                <div class="project-info">
+                    <h3 data-translate="project3_title">Proyecto 3 - Dashboard</h3>
+                    <p data-translate="project3_description">es una herramienta visual que resume y presenta información clave de manera clara y concisa</p>
+                    <a href="https://vbacb.github.io/Bcesar-Dashboard.com/" data-translate="See project">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/imgs/form-1.jpeg" alt="Proyecto 3" class="project-image">
+                <div class="project-info">
+                    <h3 data-translate="project4_title">Proyecto 4 - FORMULARIO</h3>
+                    <p data-translate="project4_description">Insercion de datos para un inicio de sesion</p>
+                    <a href="https://vbacb.github.io/Bcesar-form.com/" data-translate="See project">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/imgs/FITNESS-3.jpeg" alt="Proyecto 3" class="project-image">
+                <div class="project-info">
+                    <h3 data-translate="project5_title">Proyecto 5 - WEB GYM</h3>
+                    <p data-translate="project5_description">Sitio web de un gimnasio</p>
+                    <a href="https://vbacb.github.io/Bcesar-fitness.com/" data-translate="See project">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/imgs/CHOP2.jpeg" alt="Proyecto 3" class="project-image">
+                <div class="project-info">
+                    <h3 data-translate="project6_title">Proyecto 6 - COMIDA ONLINE</h3>
+                    <p data-translate="project6_description">venta de tu comida favorita online con un solo click</p>
+                    <a href="#" data-translate="See project">Ver proyecto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2 class="section-title" data-translate="contact">Contacto</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name" data-translate="name">Nombre</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" data-translate="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message" data-translate="message">Mensaje</label>
+                <textarea id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="cta-button" data-translate="send">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-translate="about">Sobre Mí</h3>
+                <p data-translate="footer_about_text">Soy un desarrollador web apasionado por crear experiencias digitales únicas y funcionales. Siempre en búsqueda de nuevos desafíos y aprendizajes.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3 data-translate="social networks">Redes Sociales</h3>
+                <ul class="social-links" >
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3 data-translate="contact">Contacto</h3>
+                <div class="contact-info">
+                    <span>Email: andemecesar3@gmail.com</span>
+                    <span>Teléfono: +229 61 90 88 81</span>
+                    <span>Ubicación: Benin, Cotonou</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p data-translate="copy">&copy; <b> 2025 NZO ANDEME Cirilo Bolopo</b> . Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/in.js"></script>
+    <script src="js/translate.js"></script> </body>
+</html>
